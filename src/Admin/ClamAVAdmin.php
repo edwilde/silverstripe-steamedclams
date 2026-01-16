@@ -32,7 +32,7 @@ class ClamAVAdmin extends ModelAdmin
     /**
      * @var string
      */
-    private static $menu_title = 'ClamAV';
+    private static $menu_title = 'Anti-virus';
 
     /**
      * @var array
@@ -44,7 +44,7 @@ class ClamAVAdmin extends ModelAdmin
     /**
      * @var string
      */
-    private static $menu_icon = 'symbiote/silverstripe-steamedclams:client/images/clamav_icon.png';
+    private static $menu_icon_class = 'font-icon-explore-addons';
 
     /**
      * @var array
